@@ -9,4 +9,4 @@ for (const key in config) {
   process.env[key] = config[key];
 }
 
-export const PORT = Number(process.env.PORT);
+export const PORT = process.env.PORT;

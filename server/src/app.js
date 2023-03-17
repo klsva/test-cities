@@ -1,10 +1,12 @@
 import express from 'express';
 import apiRouter from './routes/index.js';
 import { errorHandler } from './middlewares/error-handler.js';
+import cors from 'cors';
 
 const app = express();
 let server;
 app.use(express.json());
+app.use(cors());
 
 //routes
 app.use('/api', apiRouter);

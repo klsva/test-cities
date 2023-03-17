@@ -1,0 +1,12 @@
+.smallBtn {
+  color: #424242;
+  padding: 3px 10px;
+  font-size: 12px;
+  background: transparent;
+  border: 1px solid #999999;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.smallBtn:hover{
+  background: #999999;
+}

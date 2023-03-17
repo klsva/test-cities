@@ -69,7 +69,7 @@ export default {
   //delete the city
   delete: asyncHandler(async (req, res, next) => {
     const {id} = req.params;
-    const sql = `DELETE FROM city WHERE id = ?`
+    const sql = `DELETE FROM city WHERE city_id = ?`
     await db.run(sql, id, function(err, result){
       if (err) {
         return res.status(400).json({"error": err.message})
