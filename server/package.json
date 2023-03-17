@@ -4,7 +4,7 @@
   "description": "restfull application for city lists",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon --config nodemon.json index.js"
   },
   "keywords": [],
   "author": "klsva",
