@@ -11,6 +11,7 @@ Application provides admin access to CRUD cities and users access to create and 
 * Express
 * Postman
 * SQlite
+* React
 
 ### Quick start
 
