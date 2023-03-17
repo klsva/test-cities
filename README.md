@@ -42,3 +42,9 @@ npm start - start application
 * https://test-city-backend-klsva.amvera.io - back-end part
 * https://test-city-frontend-klsva.amvera.io - front-end part
 
+### TODO:
+* add validation both front- and back-end level
+* add pagination frontend side
+* fix css for long lists
+
+

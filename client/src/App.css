@@ -39,15 +39,18 @@ body {
 }
 table {
   border-collapse: collapse;
-  
+  width: 100%;
+  margin:0;
+  padding:0;
+  border-spacing: 0;  
 }
-tr :last-child {
 
-}
 td, th {
   border: 1px solid #aaaaaa;
   text-align: left;
   padding: 10px;
+  width: 33%;
+  height: 50px;
 }
 
 .cityForm{
