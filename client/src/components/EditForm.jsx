@@ -6,6 +6,7 @@ import Input from './UI/Input';
 const EditForm = ({current, update, handleUpdate}) => {
   const [updatedCity, setUpdatedCity] = useState({name: '', year: ''})
 
+  //TODO: check form
   const updateCity = (e) => {    
     e.preventDefault()
     if (updatedCity.name === '' || updatedCity.year === ''){

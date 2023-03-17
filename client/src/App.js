@@ -19,13 +19,11 @@ function App() {
   const [createCity, isCreateCityLoading, creatCityError] = useFetching( async (newCity) => {
     const response = await CityService.create(newCity)
     getCities()
-    //setModalAddCity(false)
   })
   //update
   const [updateCity, isUpdateCityLoading, UpdateCityError] = useFetching( async (updateCity) => {
     const response = await CityService.update(updateCity)
     getCities()
-    //setModalAddCity(false)
   })
   //delete
   const deleteCity = (id) => {

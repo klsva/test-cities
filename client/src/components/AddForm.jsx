@@ -6,6 +6,7 @@ import Input from './UI/Input';
 const AddForm = ({create}) => {
   const [city, setCity] = useState({name: '', year: ''})
 
+  //TODO: check form
   const addNewCity = (e) => {
     e.preventDefault()
     const newCity = {

@@ -17,7 +17,7 @@ export default {
     const { sname, fname, color, cityIds } = req.body;
     const sqllist = `INSERT INTO list (list_sname, list_fname, list_color) VALUES (?,?,?)`;
     const params = [sname, fname, color];
-    //prepare query
+    //TODO: prepare query
     // let placeholders = cityId.map((cityId) => '(?,?)').join(',');
     // let sqlCityList = 'INSERT INTO citylist (list_id, city_id) VALUES ' + placeholders;
 

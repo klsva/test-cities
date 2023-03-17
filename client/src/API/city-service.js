@@ -13,17 +13,17 @@ export default class CityService {
     return response
   }
   static async create(newCity){
-    const response = await axios.post('http://localhost:5000/api/cities', {
+    const response = await axios.post(path, {
       ...newCity 
     });
     return response
   }
   static async update(updatedCity){
-    const response = await axios.put(`http://localhost:5000/api/cities/${updatedCity.id}`, {...updatedCity});
+    const response = await axios.put(`${path}/${updatedCity.id}`, {...updatedCity});
     return response
   }
   static async delete(id){
-    const response = await axios.delete(`http://localhost:5000/api/cities/${id}`);
+    const response = await axios.delete(`${path}/${id}`);
     return response
   }
 }

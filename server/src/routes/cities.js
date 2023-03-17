@@ -4,6 +4,7 @@ import citiesController from '../controllers/cities-controller.js';
 
 const router = Router();
 
+//TODO: sanitizeRequests
 router.post('/cities', citiesController.create);
 router.get('/cities', citiesController.getAll);
 router.get('/cities/:id', citiesController.getOne);

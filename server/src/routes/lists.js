@@ -4,6 +4,7 @@ import listsController from '../controllers/lists-controller.js';
 
 const router = Router();
 
+//TODO: sanitizeRequests
 router.post('/lists', listsController.create);
 router.get('/lists', listsController.getAll);
 router.get('/lists/:id', listsController.getOne);

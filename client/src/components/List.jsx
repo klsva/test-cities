@@ -23,7 +23,6 @@ const List = ({city, remove, update}) => {
         <td>{city.city_name}</td>
         <td>{city.city_year}</td>
         <td>
-          {/* <SmallButton onClick={() => update(props.city_id)}>Update</SmallButton> */}
           <SmallButton onClick={() => updateHandler(city.city_id)}>Update</SmallButton>
           <SmallButton onClick={() => remove(city.city_id)}>Delete</SmallButton>
         </td>
