@@ -20,6 +20,9 @@ $ git clone https://github.com/klsva/test-cities.git
 $ cd test-cities
 ```
 back-end part
+
+in /server folder create .env file
+Add into .env file PORT=5000
 ```
 $ cd server
 $ npm install
@@ -46,5 +49,6 @@ npm start - start application
 * add validation both front- and back-end level
 * add pagination frontend side
 * fix css for long lists
+* add terminal commands creating .env
 
 
