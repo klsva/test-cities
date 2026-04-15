@@ -52,4 +52,5 @@ npm start - start application
 * fix css for long lists
 * add terminal commands creating .env
 
+* yep!
 
